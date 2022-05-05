@@ -1,4 +1,4 @@
-// Importing http core package/module provided by nodejs
+
 
 var http = require('http');
 
@@ -10,9 +10,8 @@ http.createServer(function (req, res) {
 
 res.writeHead(200, {'Content-Type': 'text/html'});
 
-// Writing static text
 
-res.end('Hello World');
+res.end('Hello World App!!');
 
 // Server listening on port number 4200
 
